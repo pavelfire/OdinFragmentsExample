@@ -8,11 +8,17 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        val menuFragment = MenuFragment()
+        supportFragmentManager // обращаемся к fm
+            .beginTransaction() //начать транзакцию
+            .add(R.id.fragment_container, menuFragment) // действие
+            .commit() // закончить транзакцию
+
     }
 }
 
 
-//  val fragment = MyFragment()
+//      val fragment = MyFragment()
 //        supportFragmentManager // обращаемся к fm
 //            .beginTransaction() //начать транзакцию
 //            .add(R.id.fragment_container, fragment) // действие
