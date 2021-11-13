@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
     private fun replaceFragment(fragment: Fragment) {
         supportFragmentManager // обращаемся к fm
             .beginTransaction() //начать транзакцию
-            .add(R.id.fragment_container, fragment) // действие
+            .replace(R.id.fragment_container, fragment) // действие
             .commit() // закончить транзакцию
     }
 
