@@ -27,6 +27,10 @@ class MainActivity : AppCompatActivity() {
 //                        .add(R.id.fragment_container, menuFragment) // действие
 //                        .commit() // закончить транзакцию
                 }
+                R.id.saveRestore -> {
+                    val saveRestoreFragment = SaveRestoreFragment()
+                    replaceFragment(saveRestoreFragment)
+                }
                 R.id.about -> {
                     val aboutFragment = AboutFragment()
                     replaceFragment(aboutFragment)
