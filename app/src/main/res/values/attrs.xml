@@ -8,4 +8,26 @@
         <attr name="minuteHandLength" format="dimension"/>
         <attr name="secondHandLength" format="dimension"/>
     </declare-styleable>
+
+    <declare-styleable name="StockChartView">
+
+    </declare-styleable>
+
+    <declare-styleable name="ArcProgressBar">
+        <attr name="arc_progressColor" format="color" />
+        <attr name="arc_textColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ColorfulProgressBar">
+        <attr name="colorfulBar_startColor" format="color" />
+        <attr name="colorfulBar_endColor" format="color" />
+        <attr name="colorfulBar_cornerRadius" format="float" />
+        <attr name="colorfulBar_expandFromMiddle" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="SpiralProgressBar">
+        <attr name="spiralProgressBar_startColor" format="color" />
+        <attr name="spiralProgressBar_endColor" format="color" />
+    </declare-styleable>
+
 </resources>

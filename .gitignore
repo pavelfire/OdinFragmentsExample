@@ -7,7 +7,7 @@
 /.idea/workspace.xml
 /.idea/gradle.xml
 /.idea/misc.xml
-/.idea/gradle-wrapper.properties
+/gradle/wrapper/gradle-wrapper.properties
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
 .DS_Store
