@@ -11,10 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <com.vk.directop.odinfragmentsexample.CoolGraphView
-            android:id="@+id/coolGraphView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+
 
         <Button
             android:id="@+id/about_button"
@@ -23,7 +20,7 @@
             android:layout_gravity="center"
             android:layout_marginBottom="32dp"
             android:text="О нас"
-            app:layout_constraintBottom_toBottomOf="@+id/coolGraphView"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
