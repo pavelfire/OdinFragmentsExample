@@ -131,13 +131,13 @@ constructor(
             0
         )
         hourColor = typedArray.getColor(R.styleable.CoolGraphView_hourHandColor, Color.MAGENTA)
-//        minuteColor = typedArray.getColor(R.styleable.AnalogClockView_minuteHandColor, Color.YELLOW)
-//        secondColor = typedArray.getColor(R.styleable.AnalogClockView_secondHandColor, Color.GREEN)
-//        hourHandLength = typedArray.getDimension(R.styleable.AnalogClockView_hourHandLength, -1f)
-//        minuteHandLength =
-//            typedArray.getDimension(R.styleable.AnalogClockView_minuteHandLength, -1f)
-//        secondHandLength =
-//            typedArray.getDimension(R.styleable.AnalogClockView_secondHandLength, -1f)
+        minuteColor = typedArray.getColor(R.styleable.CoolGraphView_minuteHandColor, Color.YELLOW)
+        secondColor = typedArray.getColor(R.styleable.CoolGraphView_secondHandColor, Color.GREEN)
+        hourHandLength = typedArray.getDimension(R.styleable.CoolGraphView_hourHandLength, -1f)
+        minuteHandLength =
+            typedArray.getDimension(R.styleable.CoolGraphView_minuteHandLength, -1f)
+        secondHandLength =
+            typedArray.getDimension(R.styleable.CoolGraphView_secondHandLength, -1f)
         typedArray.recycle()
     }
 }
