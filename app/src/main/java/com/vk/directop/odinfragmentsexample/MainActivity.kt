@@ -31,6 +31,9 @@ class MainActivity : AppCompatActivity() {
                     val saveRestoreFragment = SaveRestoreFragment()
                     replaceFragment(saveRestoreFragment)
                 }
+                R.id.myGraph -> {
+                    replaceFragment(SaveRestoreFragment())
+                }
                 R.id.about -> {
                     val aboutFragment = AboutFragment()
                     replaceFragment(aboutFragment)
